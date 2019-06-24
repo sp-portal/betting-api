@@ -252,6 +252,7 @@ This will generate all latest market odds for the given event.
 Parameter | Required? | Description
 --- | --- | --- 
 event_id | Yes | Event ID you get from events/*
+market_key | No | String. One Odds market per request at the moment.
 
 `More options in this API call will be available soon.`
 
