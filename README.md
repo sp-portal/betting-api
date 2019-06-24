@@ -9,6 +9,7 @@ Please contact us if you have any problem.
 
 ### Authentication
 
+
 #### HTTP Authentication:
 
 API uses HTTP Bearer access authentication. You need to send the Authorization HTTP Request header:
@@ -17,7 +18,7 @@ API uses HTTP Bearer access authentication. You need to send the Authorization H
 Authorization: Bearer <Token>
 ```
 
-#### Token Based:
+<!-- #### Token Based:
 
 To authorize, use this code:
 
@@ -25,9 +26,9 @@ To authorize, use this code:
 curl "api_endpoint_here?token=YOUR-TOKEN"
 ```
 
-Make sure replace YOUR-TOKEN with your real token.
+Make sure replace YOUR-TOKEN with your real token. -->
 
-You will get a **token** from our support. You should pass it as token= in GET query.
+<!-- You will get a **token** from our support. You should pass it as token= in GET query. -->
 
 <br>
 
@@ -153,7 +154,9 @@ sport_id | Yes | [Sport Id](#sportid)
 country_code | No | [Country Codes](#countrycode)
 league_id | No | Useful when you want to specify one league
 
-`Note that by default, maximum data per request is 20 entries. Please contact our support for custom requests.`
+`Note that by default, maximum data per request is 20 entries. Please contact our support for custom requests. 
+More options in this API call will be available soon.`
+
 
 <br>
 
@@ -170,7 +173,47 @@ It's unix epoch. [Convert from epoch to human readable date](https://www.epochco
 
 The timezone is UTC.
 
-<br><br><br><br><br><br><br><br><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+## **Ended Events**
+
+<br>
+
+### HTTP Request
+
+
+**List of Ended Events**
+
+GET https://api.sp-portal.com/events/ended
+
+```markdown
+curl "https://api.sp-portal.com/events/ended/SPORT_ID"
+```
+This will generate list of ended events.
+
+<br>
+
+
+### Query Parameters
+
+Parameter | Required? | Description
+--- | --- | --- 
+sport_id | Yes | [Sport Id](#sportid)
+
+
+
+`Note that currently, it will only display the last 20 results. More options in this API call will be available soon.`
+
+<br>
+
+### HTTP Response
+
+`Sample json file is still working in progress. Please check again later`
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -183,7 +226,61 @@ The timezone is UTC.
 
 
 
-<br><br><br><br><br><br><br><br><br>
+
+## **Event Odds**
+
+<br>
+
+### HTTP Request
+
+
+**Event Odds**
+
+GET https://api.sp-portal.com/odds/getbyeventid
+
+```markdown
+curl "https://api.sp-portal.com/odds/getbyeventid/EVENT_ID/MARKET_KEY"
+```
+This will generate all latest market odds for the given event.
+
+<br>
+
+
+### Query Parameters
+
+Parameter | Required? | Description
+--- | --- | --- 
+event_id | Yes | Event ID you get from events/*
+
+`More options in this API call will be available soon.`
+
+<br>
+
+### HTTP Response
+
+`Sample json file is still working in progress. Please check again later`
+
+<br>
+
+### Odds Markets
+
+Market Key | Description | Market Key | Description
+--- | --- | --- | --- 
+1_1 | 1X2, Full Time Result | 1_2 | Asian Handicap
+1_3 | 1X2, O/U, Goal Line | 1_4 | Asian Corners
+1_5 | 1st Half Asian Handicap | 1_6 | 1st Half Goal Line
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 # Glossary
 
 ### <a name="sportid"></a>Sports Id
@@ -202,10 +299,15 @@ The timezone is UTC.
 
 
 
+
+<!-- 
+
+
+
 <br><br>
 
 
-<!-- You can use the [editor on GitHub](https://github.com/isystem20/sp-portal-api/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/isystem20/sp-portal-api/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
