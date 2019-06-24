@@ -139,7 +139,7 @@ This will generate list of upcoming events with main market and latest odds.
 GET https://api.sp-portal.com/events/upcomingwithallmarket
 
 ```markdown
-curl "https://api.sp-portal.com/events/inplaywithallmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID
+curl "https://api.sp-portal.com/events/upcomingwithallmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID
 ```
 This will generate list of upcoming events with all markets and latest odds.
 
@@ -154,8 +154,9 @@ sport_id | Yes | [Sport Id](#sportid)
 country_code | No | [Country Codes](#countrycode)
 league_id | No | Useful when you want to specify one league
 
-`Note that by default, maximum data per request is 20 entries. Please contact our support for custom requests. 
-More options in this API call will be available soon.`
+`Note that by default, maximum data per request is 20 entries. Please contact our support for custom requests. `
+
+`More options in this API call will be available soon.`
 
 
 <br>
