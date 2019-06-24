@@ -1,0 +1,132 @@
+{
+  "isSuccess": true,
+  "result": [
+    {
+      "event": {
+        "id": "1616102",
+        "sport_Id": "1",
+        "time": 1558597500,
+        "time_Status": 0,
+        "league": {
+          "id": "2402",
+          "icon": null,
+          "name": "Bangladesh Championship League",
+          "cc": "bd",
+          "hasLeagueTable": false,
+          "hasTopList": false
+        },
+        "home": {
+          "id": "61757",
+          "name": "Agrani Bank Ltd SC",
+          "image_Id": "295988",
+          "cc": "bd"
+        },
+        "away": {
+          "id": "9245",
+          "name": "Uttar Baridhara Club",
+          "image_Id": null,
+          "cc": "bd"
+        },
+        "ss": null,
+        "has_Lineup": 0,
+        "timer": null,
+        "scores": null,
+        "extra": null,
+        "bet365_Id": null
+      },
+      "marketCount": 6,
+      "odds": [
+        {
+          "1_3": {
+            "id": "63457318",
+            "home_Od": null,
+            "draw_Od": null,
+            "away_Od": null,
+            "ss": "0-2",
+            "time_Str": "48",
+            "add_Time": "1560420262",
+            "handicap": "3.5",
+            "over_Od": "2.025",
+            "under_Od": "1.775",
+            "q": null
+          }
+        },
+        {
+          "1_1": {
+            "id": "36105323",
+            "home_Od": "23.000",
+            "draw_Od": "13.000",
+            "away_Od": "1.040",
+            "ss": "0-2",
+            "time_Str": "47",
+            "add_Time": "1560420225",
+            "handicap": null,
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        },
+        {
+          "1_2": {
+            "id": "35628365",
+            "home_Od": "1.925",
+            "draw_Od": null,
+            "away_Od": "1.875",
+            "ss": "0-0",
+            "time_Str": "0",
+            "add_Time": "1560415796",
+            "handicap": "+0.5,+1.0",
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        },
+        {
+          "1_5": {
+            "id": "9618217",
+            "home_Od": "1.975",
+            "draw_Od": null,
+            "away_Od": "1.825",
+            "ss": "0-0",
+            "time_Str": "0",
+            "add_Time": "1560415796",
+            "handicap": "0.0,+0.5",
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        },
+        {
+          "1_6": {
+            "id": "19362145",
+            "home_Od": null,
+            "draw_Od": null,
+            "away_Od": null,
+            "ss": "0-0",
+            "time_Str": "0",
+            "add_Time": "1560415796",
+            "handicap": "1",
+            "over_Od": "1.700",
+            "under_Od": "2.100",
+            "q": null
+          }
+        },
+        {
+          "1_8": {
+            "id": "13790262",
+            "home_Od": "4.333",
+            "draw_Od": "2.375",
+            "away_Od": "2.200",
+            "ss": "0-0",
+            "time_Str": "0",
+            "add_Time": "1560415796",
+            "handicap": null,
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "isSuccess": true,
+  "result": [
+    {
+      "event": {
+        "id": "1616102",
+        "sport_Id": "1",
+        "time": 1558597500,
+        "time_Status": 0,
+        "league": {
+          "id": "2402",
+          "icon": null,
+          "name": "Bangladesh Championship League",
+          "cc": "bd",
+          "hasLeagueTable": false,
+          "hasTopList": false
+        },
+        "home": {
+          "id": "61757",
+          "name": "Agrani Bank Ltd SC",
+          "image_Id": "295988",
+          "cc": "bd"
+        },
+        "away": {
+          "id": "9245",
+          "name": "Uttar Baridhara Club",
+          "image_Id": null,
+          "cc": "bd"
+        },
+        "ss": null,
+        "has_Lineup": 0,
+        "timer": null,
+        "scores": null,
+        "extra": null,
+        "bet365_Id": null
+      },
+      "marketCount": 6,
+      "odds": [
+        {
+          "1_1": {
+            "id": "36105323",
+            "home_Od": "23.000",
+            "draw_Od": "13.000",
+            "away_Od": "1.040",
+            "ss": "0-2",
+            "time_Str": "47",
+            "add_Time": "1560420225",
+            "handicap": null,
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        }
+      ]
+    },
+    {
+      "event": {
+        "id": "1616525",
+        "sport_Id": "1",
+        "time": 1558598400,
+        "time_Status": 0,
+        "league": {
+          "id": "12241",
+          "icon": null,
+          "name": "Taiwan Premier League",
+          "cc": "intl",
+          "hasLeagueTable": false,
+          "hasTopList": false
+        },
+        "home": {
+          "id": "161509",
+          "name": "Ming Chuan University",
+          "image_Id": "569347",
+          "cc": "tp"
+        },
+        "away": {
+          "id": "161506",
+          "name": "Taipei City Tatung",
+          "image_Id": "435186",
+          "cc": "tp"
+        },
+        "ss": null,
+        "has_Lineup": 0,
+        "timer": null,
+        "scores": null,
+        "extra": null,
+        "bet365_Id": null
+      },
+      "marketCount": 6,
+      "odds": [
+        {
+          "1_1": {
+            "id": "36105338",
+            "home_Od": "2.300",
+            "draw_Od": "2.625",
+            "away_Od": "3.600",
+            "ss": "1-1",
+            "time_Str": "45",
+            "add_Time": "1560420286",
+            "handicap": null,
+            "over_Od": null,
+            "under_Od": null,
+            "q": null
+          }
+        }
+      ]
+    }
+  ]
+}

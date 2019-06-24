@@ -163,7 +163,7 @@ league_id | No | Useful when you want to specify one league
 
 ### HTTP Response
 
-`Sample json file is still working in progress. Please check again later`
+<a href="samples/upcomingwithmainmarket.json" download>upcomingwithmainmarket.json</a>
 
 <br>
 
@@ -212,7 +212,7 @@ sport_id | Yes | [Sport Id](#sportid)
 
 ### HTTP Response
 
-`Sample json file is still working in progress. Please check again later`
+<a href="samples/ended.json" download>ended.json</a>
 
 <br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
@@ -259,7 +259,7 @@ event_id | Yes | Event ID you get from events/*
 
 ### HTTP Response
 
-`Sample json file is still working in progress. Please check again later`
+<a href="samples/odds.json" download>odds.json</a>
 
 <br>
 
