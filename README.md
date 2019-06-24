@@ -269,8 +269,15 @@ Market Key | Description | Market Key | Description
 1_1 | 1X2, Full Time Result | 1_2 | Asian Handicap
 1_3 | 1X2, O/U, Goal Line | 1_4 | Asian Corners
 1_5 | 1st Half Asian Handicap | 1_6 | 1st Half Goal Line
-
-
+1_7 | 1st Half Asian Corners | 1_8 | Half Time Result
+18_1 | Money Line | 18_2 | Spread
+18_3 | Total Points | 18_4 | Money Line (Half)
+18_5 | 	Spread (Half) | 18_6 | Total Points (Half)
+18_7 | 	Quarter - Winner (2-Way) | 18_8 | Quarter - Handicap
+18_9 | 	Quarter - Total (2-Way) | 3_4 | Draw No Bet
+*_1 | 	Match Winner 2-Way |  | 
+*_2 | 	Asian Handicap |  | 
+*_3 | 	Over/Under |  | 
 
 
 
@@ -285,7 +292,21 @@ Market Key | Description | Market Key | Description
 
 ### <a name="sportid"></a>Sports Id
 
-
+sport_id | Name | sport_id | Name
+--- | --- | --- | --- 
+1 | Soccer| 18 | Basketball
+13 | Tennis | 91 | Volleyball
+78 | Handball | 16 | Baseball
+17 | Ice Hockey | 14 | Snooker
+12 | American Football | 3 | Cricket
+83 | Futsal | 15 | Darts
+92 | Table Tennis | 94 | Badminton
+8 | Rugby Union | 19 | Rugby League
+36 | Australian Rules | 66 | Bowls
+9 | Boxing/UFC | 75 | 	Gaelic Sports
+90 | Floorball | 95 | 	Beach Volleyball
+110 | Water Polo | 107 | Squash
+151 | E-sports |  | 
 
 
 
@@ -295,8 +316,20 @@ Market Key | Description | Market Key | Description
 
 
 
-
-
+### <a name="timestatus"></a>time_status
+Value | Description
+--- | ---
+0 | Not Started
+1 | InPlay
+2 | TO BE FIXED
+3 | Ended
+4 | Postponed
+5 | Cancelled
+6 | Walkover
+7 | Interrupted
+8 | Abandoned
+9 | Retired
+10 | Removed
 
 
 
