@@ -54,7 +54,7 @@ You'll get **results** if everything moves well, and an (R-Errors) will be throw
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 
 
@@ -113,7 +113,7 @@ sport_id | No | [Sport Id](#sportid)
 `Sample json file is still working in progress. Please check again later`
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 
 ## **Upcoming Events**
@@ -175,7 +175,7 @@ The timezone is UTC.
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 
 ## **Ended Events**
@@ -213,7 +213,7 @@ sport_id | Yes | [Sport Id](#sportid)
 
 `Sample json file is still working in progress. Please check again later`
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 
 
@@ -280,7 +280,7 @@ Market Key | Description | Market Key | Description
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 # Glossary
 
 ### <a name="sportid"></a>Sports Id
