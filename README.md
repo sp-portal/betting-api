@@ -90,7 +90,7 @@ This will generate list of inplay events with main market and latest odds.
 GET https://api.sp-portal.com/events/inplaywithallmarket
 
 ```markdown
-curl "https://api.sp-portal.com/events/inplaywithmainmarket/SPORT_ID"
+curl "https://api.sp-portal.com/events/inplaywithallmarket/SPORT_ID"
 ```
 This will generate list of inplay events with all markets and latest odds.
 
@@ -139,7 +139,7 @@ This will generate list of upcoming events with main market and latest odds.
 GET https://api.sp-portal.com/events/upcomingwithallmarket
 
 ```markdown
-curl "https://api.sp-portal.com/events/inplaywithmainmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID
+curl "https://api.sp-portal.com/events/inplaywithallmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID
 ```
 This will generate list of upcoming events with all markets and latest odds.
 
