@@ -66,7 +66,7 @@ Sportsbook API includes Fixtures, Inplay and Results.
 
 <br>
 
-## Inplay Events
+## **Inplay Events**
 
 <br>
 
@@ -109,24 +109,39 @@ sport_id | No | [Sport Id](#sportid)
 
 ### HTTP Response
 
+`Sample json file is still working in progress. Please check again later`
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-## Upcoming Events
+## **Upcoming Events**
 
 <br>
 
 ### HTTP Request
 
-GET https://api.sp-portal.com/events/inplaywithmainmarket
+
+**Upcoming with Main Market**
+
+GET https://api.sp-portal.com/events/upcomingwithmainmarket
 
 ```markdown
-curl "https://api.sp-portal.com/events/inplaywithmainmarket/SPORT_ID"
+curl "https://api.sp-portal.com/events/upcomingwithmainmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID"
 ```
+This will generate list of upcoming events with main market and latest odds.
 
-This will generate list of upcoming events with main market and odds.
+<br>
+
+**Upcoming with All Markets**
+
+GET https://api.sp-portal.com/events/upcomingwithallmarket
+
+```markdown
+curl "https://api.sp-portal.com/events/inplaywithmainmarket/SPORT_ID/COUNTRY_CODE/LEAGUE_ID
+```
+This will generate list of upcoming events with all markets and latest odds.
+
 
 <br>
 
@@ -134,15 +149,26 @@ This will generate list of upcoming events with main market and odds.
 
 Parameter | Required? | Description
 --- | --- | --- 
-sport_id | No | [Sport Id](#sportid)
+sport_id | Yes | [Sport Id](#sportid)
+country_code | No | [Country Codes](#countrycode)
+league_id | No | Useful when you want to specify one league
 
-`Note there is no pager in this API call. we just return all events.`
+`Note that by default, maximum data per request is 20 entries. Please contact our support for custom requests.`
 
 <br>
 
 ### HTTP Response
 
+`Sample json file is still working in progress. Please check again later`
 
+<br>
+
+
+#### What's the format and timezone for 'time' field?
+
+It's unix epoch. [Convert from epoch to human readable date](https://www.epochconverter.com/)
+
+The timezone is UTC.
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -160,19 +186,14 @@ sport_id | No | [Sport Id](#sportid)
 <br><br><br><br><br><br><br><br><br>
 # Glossary
 
-### <a name="sportid"></a>SPORTS ID
+### <a name="sportid"></a>Sports Id
 
 
 
 
 
 
-
-
-
-
-
-
+### <a name="countrycode"></a>Country Codes
 
 
 
