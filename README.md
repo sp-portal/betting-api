@@ -110,7 +110,7 @@ sport_id | No | [Sport Id](#sportid)
 
 ### HTTP Response
 
-`Sample json file is still working in progress. Please check again later`
+<a href="samples/inplaywithmainmarket.json" download>inplaywithmainmarket.json</a>
 
 
 <br><br><br><br><br><!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
